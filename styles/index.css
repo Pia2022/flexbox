@@ -3,22 +3,22 @@ element.style {
     justify-content: flex-start;
 }
 
+
 .container-large {
-    border: none;
-    background-color: #460909;
-    position:relative;
+    min-height: 100vh;
     width: 1188px;
     height: 600px;
-    padding: 20px 0;
     margin-top: 90px;;
     margin-left: 98px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(39, 28, 39);
 }
 
 .card-first {
     background-color: #F48C06;
-    position: absolute;
+    
     width: 468px;
     height: 160px;
     border: radius 20px;
@@ -32,7 +32,7 @@ element.style {
 
 .card-second {
     background-color: #F48C06;
-    position: absolute;
+    
     width: 468px;
     height: 160px;
     border: radius 20px;
@@ -46,7 +46,7 @@ element.style {
 
 .card-third {
     background-color: #F48C06;
-    position: absolute;
+  
     width: 468px;
     height: 98px;
     border: radius 20px;
@@ -61,7 +61,7 @@ element.style {
 
 .card-fourth {
     background-color: #F48C06;
-    position: absolute;
+    
     width: 468px;
     height: 98px;
     border: radius 20px;
@@ -75,7 +75,7 @@ element.style {
 
 .card-fifth {
     background-color: #F48C06;
-    position: absolute;
+    
     width: 468px;
     height: 98px;
     border: radius 20px;
@@ -88,7 +88,7 @@ element.style {
 
 .card-sixth {
     background-color: #F48C06;
-    position: absolute;
+    
     width: 468px;
     height: 98px;
     border: radius 20px;
@@ -101,7 +101,7 @@ element.style {
 
 .items-first {
     background-color: #9D0208;
-    position:absolute;
+    
     width: 45px;
     height: 45px;
     margin-bottom: 10;
@@ -111,21 +111,22 @@ element.style {
 }
 
 .container-second {
-    border: none;
-    background-color: #f3ef0e;
-    position:absolute;
+    min-width: 100vh;
     width: 1188px;
     height: 600px;
     margin-top: 90px;;
     margin-left: 98px;
-    min-height: 50%;
-    display: flex
-    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f3ef0e;
 }
+
+
 
 .box-first {
     background-color: #03071E;
-    position: absolute;
+    
     width: 273px;
     height: 220px;
     border: radius 20px;
