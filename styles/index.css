@@ -17,86 +17,96 @@ element.style {
 }
 
 .card-first {
-    background-color: #F48C06;
-    
     width: 468px;
     height: 160px;
-    border: radius 20px;
-    margin-top: 90px;
-    margin-left: 98px;
-    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    flex-basis: 100px;
+    align-items: flex-end;
+    background-color: #F48C06;
+    border: radius 5px;
     }
 
 .card-second {
-    background-color: #F48C06;
-    
     width: 468px;
     height: 160px;
-    border: radius 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #F48C06;
+    border radius: 5px; 
+  /*
     margin-top: 90px;
     margin-left: 586px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex-basis: 100px;
+    */  
 }
 
 .card-third {
-    background-color: #F48C06;
-  
     width: 468px;
-    height: 98px;
-    border: radius 20px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F48C06;
+    border radius: 5px; 
+/*
     margin-top: 270px;
     margin-left: 98px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-basis: 100px;
+    */
 }
 
 
 .card-fourth {
-    background-color: #F48C06;
-    
     width: 468px;
-    height: 98px;
-    border: radius 20px;
-    margin-top: 270px;
-    margin-left: 586px;
-    display: flex;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
     justify-content: flex-end;
     align-items: center;
-    flex-basis: 100px;
+    background-color: #F48C06;
+    border radius: 5px; 
+/*
+    margin-top: 270px;
+    margin-left: 586px;
+   */
 }
 
 .card-fifth {
-    background-color: #F48C06;
-    
     width: 468px;
-    height: 98px;
-    border: radius 20px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #F48C06;
+    border radius: 5px; 
+/*
     margin-top: 450px;
     margin-left: 98px;
-    display: flex;
-    justify-content: flex-end;
-    flex-basis: 100px;
+    */
 }
 
 .card-sixth {
-    background-color: #F48C06;
-    
     width: 468px;
-    height: 98px;
-    border: radius 20px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: #F48C06;
+    border radius: 5px; 
+/*
     margin-top: 450px;
     margin-left: 586px;
-    display: flex;
-    justify-content: flex-end;
-    flex-basis: 100px;
+   */
 }
 
 .items-first {
