@@ -1,6 +1,9 @@
 
 element.style {
     justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
 }
 
 
@@ -51,7 +54,7 @@ element.style {
     margin-left: 20px;
     display: inline-flex;
     justify-content: flex-start;
-    align-items: center;
+    align-content: center;
     background-color: #F48C06;
     border-radius: 5px; 
 /*
@@ -68,7 +71,7 @@ element.style {
     margin-left: 20px;
     display: inline-flex;
     justify-content: flex-end;
-    align-items: center;
+    align-content: center;
     background-color: #F48C06;
     border-radius: 5px; 
 /*
@@ -137,7 +140,7 @@ element.style {
     height: 78px;
     background-color: #9D0208;
     border-radius: 5px;
-    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 20px;
     justify-content: flex-end;
     align-content: center;
@@ -243,16 +246,6 @@ element.style {
     align-self: center;
 }
 
-
-
-
-
-
-
-
-
-}
-
 .container-second {
     min-width: 100vh;
     width: 1188px;
@@ -265,39 +258,91 @@ element.style {
     background-color: #f3ef0e;
 }
 
-
-
-.box-first {
-    background-color: #03071E;
-    
+.box-first {     
     width: 273px;
     height: 220px;
-    border: radius 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: #03071E;
+       /*
     margin-top: 90px;
     margin-left: 98px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-basis: 100px;
-    }
-.dots-five {
-    background-color: #748CAB;
-    Font: Roboto;
-    width: 273px;
-    height: 220px;
-    style: normal;
-    size: 36px;
-    line height: 42,19px;
-    position: absolute;
+    */
 }
 
-.dots-six {
-    background-color: #748CAB;
-    Font: Roboto;
+.box-second {     
     width: 273px;
     height: 220px;
-    style: normal;
-    size: 36px;
-    line height; 42,19px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03071E;
+}
+
+.box-third {     
+    width: 273px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #03071E;
+}
+
+.box-fourth {     
+    width: 273px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: #03071E;
+}
+
+.box-fifth {     
+    width: 273px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: #030925;
+}
+
+.dots-one {     
+    width: 273px;
+    height: 220px;
+    background-color: #748CAB;
+    line-height: 42,19px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.dots-two {
+    width: 273px;
+    height: 220px;
+    background-color: #748CAB;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.dots-three {
+    width: 273px;
+    height: 220px;
+    background-color: #748CAB;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
